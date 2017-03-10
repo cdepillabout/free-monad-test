@@ -19,9 +19,12 @@ library
                      , Lib
                      , More
                      , Other
+                     , Retry
   build-depends:       base >= 4.7 && < 5
                      , classy-prelude
                      , free
+                     , transformers
+                     , mtl
   default-language:    Haskell2010
 
 executable free-monad-test-exe
